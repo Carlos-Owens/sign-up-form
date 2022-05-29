@@ -19,8 +19,9 @@ body {
     background: url(./img/city.jpg);
     background-size: cover;
     color: rgb(255, 255, 255);
-    position: relative;
-    width: 60vh;
+    /* position: relative; */
+    width: 60vw;
+    min-width: 350px;
 }
 
 .side-hero div {
@@ -30,4 +31,16 @@ body {
     width: 100%;
     background-color: rgba(0, 0, 0, 0.527);
     padding: 2px 2px;
+}
+
+.side-hero img {
+    width: 6rem;
+    padding: 8px;
+}
+
+.side-hero p {
+    font-size: 1rem;
+    bottom: 0px;
+    color: rgba(255, 255, 255, .575);
+    position: absolute;
 }
