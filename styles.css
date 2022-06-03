@@ -88,9 +88,25 @@ input, label {
     display: block;
 }
 
-input:focus {
-    padding: 4px;
-    border-color: rgb(0, 99, 247);
+
+input:focus{
+    outline: 0;
+    border: 2px solid blue;
+}
+
+.input.error input{
+  border-color: #ff3860;
+}
+
+.input .error {
+  color: #ff3860;
+  font-size: .9rem;
+}
+
+a {
+  text-decoration: none;
+  color: #2e3e97;
+  font-weight: bold;
 }
 
 button[type="submit"] {
