@@ -17,7 +17,7 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url(./img/city.jpg);
+    background-image: url(./img/city.jpg);
     background-size: cover;
     color: rgb(255, 255, 255);
     /* position: relative; */
@@ -120,4 +120,27 @@ button[type="submit"] {
 }
 button[type="submit"]:active {
     background-color: #151f58;
+}
+
+@media screen and (max-width: 850px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .side-hero {
+        width: 100vw;
+        height: 20rem;
+    }
+
+    .form-section, form, .submit-section{
+        width: 100vw;
+        justify-content: center;
+    }
+
+    .top-card div, .input-section, .submit-section div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
 }
