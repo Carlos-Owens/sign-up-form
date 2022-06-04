@@ -8,11 +8,8 @@ const passCon = document.getElementById("passCon");
 
 
 form.addEventListener("submit", e => {
-    if(!validateInputs) {
-        e.preventDefault();
-    } else {
+    e.preventDefault();
     validateInputs();
-    }
 });
 
 
