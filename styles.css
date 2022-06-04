@@ -121,6 +121,7 @@ button[type="submit"] {
     color: white;
     font-size: 1rem;
     border: none;
+    cursor: pointer;
 }
 button[type="submit"]:active {
     background-color: #151f58;
